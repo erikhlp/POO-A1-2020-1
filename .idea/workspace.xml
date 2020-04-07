@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1826b6fe-4255-4d5e-9ba9-8fd2da167e62" name="Default Changelist" comment="" />
+    <list default="true" id="1826b6fe-4255-4d5e-9ba9-8fd2da167e62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Marca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Adress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Adress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Gear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Gear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Atividade 1/com/company/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Endereço.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Gear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Proprietário.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZumQ2db2H3nUtHflKoWZnF3Br7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +38,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../POO2020-1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AvaliaçãoA1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585697333494</updated>
       <workItem from="1585697336398" duration="5073000" />
+      <workItem from="1586293198715" duration="2559000" />
+      <workItem from="1586295954063" duration="899000" />
+      <workItem from="1586298950204" duration="351000" />
     </task>
     <servers />
   </component>
@@ -67,14 +87,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1585702312736">
+    <state x="721" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1586296065029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585702312736" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1585698510226">
+    <state x="721" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586296065029" />
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1586298610065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585698510226" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586298610065" />
     <state x="642" y="66" key="refactoring.ChangeSignatureDialog" timestamp="1585702314391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
