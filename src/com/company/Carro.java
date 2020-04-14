@@ -44,7 +44,7 @@ public class Carro {
         if (this.marchaAtual == -1 && this.velocidadeAtual > 0) {
             System.out.println("Não é possivel engatar a marcha ré em movimento.");
         } else if (this.marchaAtual == -1) {
-            System.out.println("Voce ja esta na machar ré");
+            System.out.println("Voce ja esta na marcha ré");
         } else {
             this.marchaAtual = -1;
         }
@@ -59,6 +59,6 @@ public class Carro {
     }
 
     public String toString() {
-        return "Dados do carro: \nVelocidadeMaxima: " + this.velocidadeMaxima + "\nVelocidadeAtual: " + this.velocidadeAtual + "\nNumero de portas do carro: " + this.numeroDePortasDoCarro + "\nTeto Solar: " + this.tetoSolar + "\nNumero de marchas do carro: " + this.numeroDeMarchasDoCarro + "\nCambio automatico: " + this.cambioAutomatico + "\nVolume de combustivel: " + this.volumeDeCombustivel + " Litros \nMarcha atual: " + this.marchaAtual + "\nMarcha re: " + this.marchaRe + "\nA autonomia de viagem é " + this.autonomiaDeViagem + " KM";
+        return "Dados do carro: \nVelocidade Maxima: " + this.velocidadeMaxima + "\nVelocidade Atual: " + this.velocidadeAtual + "\nNumero de portas do carro: " + this.numeroDePortasDoCarro + "\nTeto Solar: " + this.tetoSolar + "\nNumero de marchas do carro: " + this.numeroDeMarchasDoCarro + "\nCambio automatico: " + this.cambioAutomatico + "\nVolume de combustivel: " + this.volumeDeCombustivel + " Litros \nMarcha atual: " + this.marchaAtual + "\nMarcha re: " + this.marchaRe + "\nA autonomia de viagem é " + this.autonomiaDeViagem + " KM";
     }
 }
