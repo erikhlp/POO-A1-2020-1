@@ -25,8 +25,7 @@ public class Venda {
 
     @Override
     public String toString() {
-        return "\nLista de Carros: " +
-                "carros" + carros;
+        return "\nLista de Carros:\n" + carros + "\n";
     }
 
 //    public List<Carro> buscar(Carro exemplo) {

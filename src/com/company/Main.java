@@ -35,9 +35,12 @@ public class Main {
         Venda novaVenda = new Venda();
 
         novaVenda.adicionarCarro(modeloCarro);
+        novaVenda.adicionarCarro(modeloCarro2);
 
         System.out.println(novaVenda);
 
         System.out.println("\n" + novaVenda.obterVeiculo("512"));
+
+
     }
 }
