@@ -5,14 +5,18 @@ public class Marca {
     private String cor;
     private int ano;
     private String marca;
-    private int chassi;
+    private String chassi;
 
-    public Marca(String modelo, String cor, int ano, String marca, int chassi) {
+    public Marca(String modelo, String cor, int ano, String marca, String chassi) {
         this.modelo = modelo;
         this.cor = cor;
         this.ano = ano;
         this.marca = marca;
         this.chassi = chassi;
+    }
+
+    public String getChassi() {
+        return chassi;
     }
 
     public String toString() {

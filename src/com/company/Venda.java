@@ -11,15 +11,15 @@ public class Venda {
 //   - o método buscar recebe um objeto Veiculo preenchido com os parametros de busca, por exemplo, pode receber um objeto somente com a
 //   Marca Volkswagen e então deve percorrer a lista e devolver uma lista com todos os Veiculos de Marca Volkwagen existentes nas Vendas.
 
-    private List<Carro> carros;
+    private List<Marca> carros;
 
 
-    public Venda(){
-        carros = new ArrayList<Carro>();
+    public Venda() {
+        carros = new ArrayList<Marca>();
     }
 
 
-    public void adicionarCarro(Carro carro){
+    public void adicionarCarro(Marca carro) {
         carros.add(carro);
     }
 
@@ -27,14 +27,23 @@ public class Venda {
     public String toString() {
         return "\nLista de Carros: " +
                 "carros" + carros;
-        };
     }
 
-    //    public List<Carro> buscar(Carro exemplo) {
-//        return null;
-//    }
+//    public List<Carro> buscar(Carro exemplo) {
 //
-//    public String obterCarro(String chassi){
+//        var found = carros.find(function(element) {
+//        return element = 20;
+//        });
 //        return null;
-//    }
+//        }
+//
+    public Marca obterVeiculo(String chassi) {
+        for (Marca carro : carros){
+          if (carro.getChassi().equals(chassi)) {
+              return carro;
+          }
+
+        }
+        return null;
+    }
 }

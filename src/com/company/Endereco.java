@@ -18,8 +18,8 @@ public class Endereco {
     }
 
     public String toString() {
-        return "Endereço do proprietário: \nRua = " + this.rua + "\nBairro = "
-                + this.bairro + "\nCidade = " + this.cidade + "\nEstado = " + this.estado
-                + "\nCep = " + this.cep + "\nComplemento = " + this.complemento + "\n";
+        return "Endereço do proprietário: \nRua: " + this.rua + "\nBairro: "
+                + this.bairro + "\nCidade: " + this.cidade + "\nEstado: " + this.estado
+                + "\nCep = " + this.cep + "\nComplemento: " + this.complemento + "\n";
     }
 }
